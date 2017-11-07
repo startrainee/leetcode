@@ -60,7 +60,7 @@ public class Design1 {
 }
 interface Checker {
     int checking = 0;
-    int check_sucess = 1;
+    int check_success = 1;
     int check_fail = 2;
     void check(Person person);
     int getCheckResult();
@@ -90,7 +90,7 @@ class CheckerMachine{
             if (checker.getCheckResult() == Checker.check_fail) return Checker.check_fail;
             if (checker.getCheckResult() == Checker.checking) checkResult = Checker.checking;
         }
-       return checkResult == -1 ? Checker.check_sucess : checkResult;
+       return checkResult == -1 ? Checker.check_success : checkResult;
     }
 }
 
