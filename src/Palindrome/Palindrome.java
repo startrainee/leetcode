@@ -1,5 +1,9 @@
 package Palindrome;
 
+
+/**
+ * 判断是否为回文字符串
+ * */
 public class Palindrome {
 
     public static void main(String[] args) {
@@ -10,12 +14,6 @@ public class Palindrome {
             System.out.print("v2-");
             System.out.println(isPalindrome_v2(i));
         }
-
-
-
-
-
-
     }
     public static boolean isPalindrome(int x) {
         char[] num = String.valueOf(x).toCharArray();

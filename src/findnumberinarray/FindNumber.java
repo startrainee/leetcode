@@ -1,5 +1,10 @@
 package findnumberinarray;
 
+
+
+/**
+ * 在杨氏矩阵里找到数
+ * */
 public class FindNumber {
 
     public static void main(String[] args) {

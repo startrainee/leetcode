@@ -4,6 +4,11 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+
+/**
+ * 解析字符串
+ *
+ * */
 public class ParseString {
 
     private static final int BEFORE_TAKEOFF = 0;
@@ -17,7 +22,7 @@ public class ParseString {
                 "10-2-20",
                 "10-4-20-2-20-0-14"
         };
-        System.out.println(Arrays.toString("099999999".split("-")));
+        System.out.println(Arrays.toString("09999-9999".split("-")));
         for (String str : input) {
             parsString(str).forEach(System.out::println);
             System.out.println("———————————");

@@ -1,7 +1,15 @@
 package addSum;
 
-import java.util.Arrays;
-
+/**
+ * 两个链表相加
+ * 如
+ *  5 -> 2 -> 6
+ *  5 -> 5 -> 6 相加后得:
+ *  0 -> 8 -> 2 -> 1
+ *  5 -> 2
+ *  5 -> 5 -> 6 相加后得:
+ *  0 -> 8-> 2 -> 1
+ * */
 
 public class AddSum {
     public static void main(String[] args) throws Exception {
@@ -15,7 +23,7 @@ public class AddSum {
         System.out.println("Hello World!11");
         ListNode listNode0 = new ListNode(5);
         listNode0.next = new ListNode(2);
-        //listNode0.next.next = new ListNode(6);
+        listNode0.next.next = new ListNode(6);
 
         ListNode listNode1 = new ListNode(5);
         listNode1.next = new ListNode(5);
@@ -28,14 +36,13 @@ public class AddSum {
     }
 
     private static void printListNode(ListNode listNode) {
-        while (true) {
-            System.out.print(listNode.val + " ");
-            if (listNode.next == null) {
-                System.out.println();
-                return;
-            }
-            listNode = listNode.next;
+
+        ListNode nextNode = listNode;
+        while (nextNode != null) {
+            System.out.print(nextNode.val + " ");
+            nextNode = nextNode.next;
         }
+        System.out.println();
     }
 
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {

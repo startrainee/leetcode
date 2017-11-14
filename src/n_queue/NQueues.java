@@ -1,7 +1,10 @@
 package n_queue;
 
-import java.util.Arrays;
 
+
+/**
+ * 一维数组代替二位数组
+ * */
 public class NQueues {
 
     private int[][] array;

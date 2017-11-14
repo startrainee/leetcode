@@ -32,6 +32,9 @@ public class FindMaxOfWindow {
         System.out.println(Arrays.toString(FindMaxOfWindow2(array,windowSize)));
     }
 
+    /**
+     * 复杂度O(N*w) 数组长度为N，窗口长度为w
+     * */
     private static int findMaxIndexOfWindow(int[] array, int leftOfWindow, int rightOfWindow) {
 
         if(leftOfWindow == rightOfWindow){

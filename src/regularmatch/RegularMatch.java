@@ -24,5 +24,5 @@ isMatch("aab", "c*a*b") → true
  */
 
 //todo
-public class RegularMatch {
+    public class RegularMatch {
 }
