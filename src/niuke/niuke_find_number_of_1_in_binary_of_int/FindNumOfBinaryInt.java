@@ -1,5 +1,8 @@
 package niuke.niuke_find_number_of_1_in_binary_of_int;
 
+/**
+ * 输入一个整数，输出该数二进制表示中1的个数。其中负数用补码表示。
+ * */
 public class FindNumOfBinaryInt {
 
     public static void main(String[] args) {

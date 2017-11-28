@@ -1,7 +1,9 @@
 package niuke.niuke_use_two_stack_to_release_queue;
 
 import java.util.Stack;
-
+/**
+ * 用两个栈实现一个队列
+ * */
 public class Solution {
     Stack<Integer> stack1 = new Stack<Integer>();
     Stack<Integer> stack2 = new Stack<Integer>();

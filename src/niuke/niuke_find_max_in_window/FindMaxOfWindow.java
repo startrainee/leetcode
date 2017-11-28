@@ -3,6 +3,13 @@ package niuke.niuke_find_max_in_window;
 import java.util.ArrayDeque;
 import java.util.Arrays;
 
+/**
+ * [1,2,3,4,5,6,7]
+ *
+ * 窗口大小为3，[,,,]
+ *  窗口在数组上从左往右移动一次一个格子
+ *  求每次移动窗口中的最小值，保存并依次输出
+ * */
 public class FindMaxOfWindow {
 
 
