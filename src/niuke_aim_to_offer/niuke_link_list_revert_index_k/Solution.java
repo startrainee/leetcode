@@ -1,4 +1,4 @@
-package niuke.niuke_link_list_revert_index_k;
+package niuke_aim_to_offer.niuke_link_list_revert_index_k;
 
 
 import java.util.Stack;

@@ -1,4 +1,4 @@
-package niuke.niuke_print_link_list_tail_to_head;
+package niuke_aim_to_offer.niuke_print_link_list_tail_to_head;
 
 import java.util.ArrayList;
 import java.util.Stack;

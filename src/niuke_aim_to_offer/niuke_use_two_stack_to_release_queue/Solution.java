@@ -1,4 +1,4 @@
-package niuke.niuke_use_two_stack_to_release_queue;
+package niuke_aim_to_offer.niuke_use_two_stack_to_release_queue;
 
 import java.util.Stack;
 /**

@@ -1,4 +1,4 @@
-package niuke.niuke_find_min_of_array;
+package niuke_aim_to_offer.niuke_find_min_of_array;
 
 import java.util.Stack;
 /**

@@ -1,0 +1,43 @@
+package niuke_aim_to_offer.niuke_1_10;
+
+import java.util.Stack;
+
+/**
+ * 输入两个整数序列，第一个序列表示栈的压入顺序，
+ * 请判断第二个序列是否为该栈的弹出顺序。假设压入
+ * 栈的所有数字均不相等。例如序列1,2,3,4,5是某栈
+ * 的压入顺序，序列4,5,3,2,1是该压栈序列对应的一
+ * 个弹出序列，但4,3,5,1,2就不可能是该压栈序列的
+ * 弹出序列。（注意：这两个序列的长度是相等的）
+ * */
+public class Solution {
+
+    Stack<Integer> value = new Stack<>();
+    Stack<Integer> minValue = new Stack<>();
+
+    public void push(int node) {
+        value.push(node);
+        if(minValue.empty()){
+            minValue.push(node);
+        }else {
+            minValue.push(node< minValue.peek()?node:minValue.peek());
+        }
+    }
+
+    public void pop() {
+        if(!value.empty()){
+            value.pop();
+            minValue.pop();
+        }
+    }
+
+    public int top() {
+        return value.peek();
+
+    }
+
+    public int min() {
+        return minValue.peek();
+
+    }
+}

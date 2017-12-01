@@ -1,4 +1,4 @@
-package niuke.niuke_fibonacci_array;
+package niuke_aim_to_offer.niuke_fibonacci_array;
 
 import java.util.Arrays;
 

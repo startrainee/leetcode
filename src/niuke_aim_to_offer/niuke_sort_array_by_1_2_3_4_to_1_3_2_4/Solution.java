@@ -1,4 +1,4 @@
-package niuke.niuke_sort_array_by_1_2_3_4_to_1_3_2_4;
+package niuke_aim_to_offer.niuke_sort_array_by_1_2_3_4_to_1_3_2_4;
 
 import java.util.Arrays;
 

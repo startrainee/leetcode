@@ -1,4 +1,4 @@
-package niuke.niuke_find_max_in_window;
+package niuke_aim_to_offer.niuke_find_max_in_window;
 
 import java.util.ArrayDeque;
 import java.util.Arrays;
